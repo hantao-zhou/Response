@@ -28,3 +28,24 @@ The following image demonstrates the label matching heatmap, which shows the cor
 The following curve demonstrates the variation of the F1 score along the training procedure. The F1 score is a metric that combines precision and recall, providing a balanced measure of the model's performance. The curve shows how the F1 score changes as the model is trained, with higher values indicating better performance.
 
 ![F1_curve](fig/F1_curve.png)
+
+# Performance
+
+| Scenario                                | Success Ratio | Trials to First Success |
+|-----------------------------------------|---------------|-------------------------|
+| **Performance in Simple Courts**        |               |                         |
+| Nautilus Target                         | 6/10 (60%)    | 5                       |
+| Yellow Disk Target                      | 10/10 (100%)  | 1                       |
+| Volcano Target                          | 8/10 (80%)    | 3                       |
+| **Performance in Medium Courts**        |               |                         |
+| Variations of Endpoint Positions        | 8/10 (80%)    | 3                       |
+| Variations of Endpoint Types            | 7/10 (70%)    | 3                       |
+| Courts with Multiple Feasible Solutions | 7/10 (70%)    | 4                       |
+| Complex Kinodynamic                     | 8/10 (80%)    | 3                       |
+| **Performance in Complex Minigolf Course Layouts** |               |                         |
+| Example 1                               | 7/10 (70%)    | 4                       |
+| Example 2                               | 8/10 (80%)    | 3                       |
+| Example 3                               | 8/10 (80%)    | 3                       |
+| Example 4                               | 7/10 (70%)    | 4                       |
+| Example 5                               | 7/10 (70%)    | 4                       |
+| Example 6                               | 8/10 (80%)    | 3                       |
