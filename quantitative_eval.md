@@ -29,7 +29,8 @@ The following curve demonstrates the variation of the F1 score along the trainin
 
 ![F1_curve](fig/F1_curve.png)
 
-# Performance
+# Performance Evaluation
+We provide a comprehensive evaluation of the performance of the proposed method in various scenarios, including simple courts, medium courts, and complex minigolf course layouts. The evaluation is based on the success ratio and the number of trials required to achieve the first success. The results are summarized in the table below.
 
 | Scenario                                | Success Ratio | Trials to First Success |
 |-----------------------------------------|---------------|-------------------------|
